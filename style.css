@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Space+Mono&display=swap');
+
+body {
+  background-color: #F2F2F2;
+  font-family:'Montserrat', sans-serif;
+  font-size: 16px;
+  border-radius: 4px;
+  text-align: center;
+  display: block;
+}
+
+.container {
+  margin: 10px auto;
+  width: 1000px;
+}
+
+.card-white {
+  background-color: #efebeb;
+  padding: 40px;
+  text-align: center;
+  margin: 40px 100px;
+}
+
+.card-grey {
+  background-color: #e0dada;
+  padding: 6px;
+  text-align: center;
+  margin: 40px 100px;
+}
+
+.card-grey, .card-white {
+  box-shadow: 0px 2px 3px rgb(182, 177, 177);
+  border-radius: 10px;
+}
+
+h1, h4 {
+  color: rgb(164, 164, 200);
+  font-family:'Montserrat', sans-serif;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 900;
+}
+
+h4 {
+  font-size: 28px;
+  padding: 0px;
+}
+
+a {
+  color: rgb(71, 57, 83);
+  text-align: center;
+}
+
+a:hover {
+  color: rgb(99, 66, 131);
+}
+
+img {
+  height: 100px;
+  border-radius: 50px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+}
+
+i {
+  color: rgb(71, 57, 83);
+  font-size: 30px;
+}
+
+i:hover{
+  color: rgb(181, 166, 195);
+}
+
+.btn-purple {
+  display: inline-block;
+  background-color: #6167b4;
+  color: white;
+  border-radius: 21px;
+  text-decoration: none;
+  padding: 13px;
+}
+
+.btn-purple:hover{
+  background-color: rgb(181, 166, 195);
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
